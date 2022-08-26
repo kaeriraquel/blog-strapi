@@ -6,20 +6,30 @@ blog using gatsby and strapi
   
 ## Password:
   Admin1025
+  
+## Instructions to run the project
 
-You will notice that the node_modules folder is not found in the repository, so the yarn command must be executed. 
+You can start your back-end and front-end app running the following commands:
 
-You can start your front-end and back-end app running the following command:
-
-**Back-end**
-cd backend 
+**Back-end**  
+```bash
+cd backend
+yarn
 yarn develop
-Strapi is running on http://localhost:1337
+```
+If the commands are succesful you should see the following message in your terminal:
+
+`Strapi is running on http://localhost:1337`
 
 **Front-end**
-cd frontend 
+```bash
+cd frontend
+yarn
 yarn develop
-Gatsby is running on http://localhost:8000
+```
+If the commands are succesful you should see the following message in your terminal:
+
+`Gatsby is running on http://localhost:8000`
 
 It is **important** that the backend is running so that the frontend can run without errors.
  
