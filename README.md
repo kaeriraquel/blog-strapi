@@ -1,5 +1,6 @@
-# blog-strapi
-blog using gatsby and strapi
+# Blog-strapi
+
+Blog using Gatsby and Strapi
 
 ## Strapi Admin User :
   raquelgutierrez1025@gmail.com
