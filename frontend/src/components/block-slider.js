@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css"
 
 const BlockSlider = ({ data }) => {
   return (
-    <div className="container max-w-3xl py-8">
+    <div className="container pt-8 ">
       <Slider
         dots={true}
         infinite={true}

@@ -2,6 +2,7 @@
   "dependencies": {
     "gatsby-plugin-postcss": "^5.21.0",
     "gatsby-source-strapi": "2.0.0-beta.0",
-    "gatsby-transformer-remark": "^5.21.0"
+    "gatsby-transformer-remark": "^5.21.0",
+    "react-icons": "^4.4.0"
   }
 }

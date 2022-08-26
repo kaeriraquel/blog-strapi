@@ -4,7 +4,7 @@ import Navbar from "./navbar"
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex min-h-screen flex-col justify-between bg-black text-neutral-900">
+    <div className="flex min-h-screen flex-col justify-between bg-slate-400 text-white">
       <div>
         <Navbar />
         {children}
