@@ -6,8 +6,9 @@ import "slick-carousel/slick/slick-theme.css"
 
 const BlockSlider = ({ data }) => {
   return (
-    <div className="container pt-8 ">
+    <div className="container pt-8">
       <Slider
+        
         dots={true}
         infinite={true}
         speed={300}
@@ -18,6 +19,7 @@ const BlockSlider = ({ data }) => {
       >
         {data.files.map((file) => (
           <GatsbyImage
+            className="rounded-lg"
             key={file.id}
             image={getImage(file.localFile)}
             alt={file.alternativeText}

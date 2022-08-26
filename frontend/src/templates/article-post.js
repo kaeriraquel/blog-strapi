@@ -17,13 +17,13 @@ const ArticlePage = ({ data }) => {
   return (
     <Layout as="article">
       <Seo seo={seo} />
-      <header className="container max-w-4xl py-8">
-        <h1 className="text-6xl font-bold text-neutral-700">{article.title}</h1>
-        <p className="mt-4 text-2xl text-neutral-500">{article.description}</p>
+      <header className="container max-w-4xl py-8 ">
+        <h1 className="text-6xl font-bold  text-white underline decoration-sky-600 hover:decoration-blue-400">{article.title}</h1>
+        <p className="mt-4 text-2xl text-black">{article.description}</p>
         <GatsbyImage
           image={getImage(article?.cover?.localFile)}
           alt={article?.cover?.alternativeText}
-          className="mt-6"
+          className="mt-6 rounded-lg"
         />
       </header>
       <main className="mt-8">
